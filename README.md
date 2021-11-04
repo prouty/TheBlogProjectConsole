@@ -11,7 +11,7 @@
 3. Scaffold from the existing PostreSQL database
 	> dotnet ef dbcontext scaffold "[connection string]" Npgsql.EntityFrameworkCore.PostgreSQL -o Models -f -c AppDbContext
 4. Test it out by updating Program.cs
-	> Add: using TestApp.Models;
+	> Add: using SomeApp.Models;
 
 	```
 	static void Main(string[] args)
@@ -20,8 +20,8 @@
 		{
 			Blog blog = new Blog
 			{
-				Name = "My Blog 2",
-				Description = "My Description 2"
+				Name = "My Blog",
+				Description = "My Description"
 			};
 
 			db.Blogs.Add(blog);
