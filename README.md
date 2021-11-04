@@ -1,9 +1,12 @@
 #### Everything in this project was built using the following steps. It assumes you have a PostgresSQL database with at least a Blogs table for the given example to work.
 
 1. Make a new Console app
-	`mkdir SomeApp`
-	`cd SomeApp`
-	`dotnet new console -f net5.0` (where -f net5.0 is necessary if you want to use that version and it's not the default)
+	```
+	mkdir SomeApp
+	cd SomeApp
+	dotnet new console -f net5.0 (where -f net5.0 is necessary if you want to use that version and it's not the default)
+	```
+	
 2. Add the packages
 
 	```
