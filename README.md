@@ -10,8 +10,8 @@
 	dotnet add package Microsoft.EntityFrameworkCore.Design
  	dotnet add package Microsoft.EntityFrameworkCore.Tools.DotNet
  	dotnet add package Microsoft.NETCore.App
-  dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
- 	dotnet add package Microsoft.EntityFrameworkCore.Design
+	dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+	dotnet add package Microsoft.EntityFrameworkCore.Design
 	```
 
 3. Scaffold from the existing PostreSQL database
