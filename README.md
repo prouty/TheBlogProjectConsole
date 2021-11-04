@@ -1,3 +1,5 @@
+## Everything in this project was built using the following steps. It assumes you have a PostgresSQL database with at least a Blogs table, at least for the given example to work.
+
 1. Make a new Console app
 	`mkdir SomeApp`
 	`cd SomeApp`
