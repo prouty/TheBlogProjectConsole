@@ -6,7 +6,7 @@
 	cd SomeApp
 	dotnet new console -f net5.0 (where -f net5.0 is necessary if you want to use that version and it's not the default)
 	```
-	
+
 2. Add the packages
 
 	```
@@ -43,3 +43,5 @@
 	```
 
 5. Run it: `dotnet run`
+
+6. View the Blogs table in the database and confirm that the new entry is there.
